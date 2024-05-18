@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: self-hosted
 
-   # strategy:
-     # matrix:
-      #  python-version: [3.8.0, 3.9.0]
+    strategy:
+      matrix:
+       python-version: [3.8.0, 3.9.0]
 
     steps:
     - uses: actions/checkout@v4
